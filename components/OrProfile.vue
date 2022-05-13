@@ -32,6 +32,22 @@
         <nuxt-link to="/" class="block">
           <div class="flex justify-between items-center rounded-lg">
             <div class="flex items-center space-x-2">
+              <svg width="1em" height="1em" viewBox="0 0 15 15" class="text-gray-400">
+                <path
+                  fill="currentColor"
+                  d="M7.825.12a.5.5 0 0 0-.65 0L0 6.27v7.23A1.5 1.5 0 0 0 1.5 15h4a.5.5 0 0 0 .5-.5v-3a1.5 1.5 0 0 1 3 0v3a.5.5 0 0 0 .5.5h4a1.5 1.5 0 0 0 1.5-1.5V6.27L7.825.12Z"
+                ></path>
+              </svg>
+              <div>Início</div>
+            </div>
+          </div>
+        </nuxt-link>
+      </li>
+
+      <li>
+        <nuxt-link to="/" class="block">
+          <div class="flex justify-between items-center rounded-lg">
+            <div class="flex items-center space-x-2">
               <svg
                 width="1em"
                 height="1em"
@@ -62,21 +78,6 @@
               <div>Depoimentos</div>
             </div>
             <div class="rounded-lg bg-pink-600 text-white text-xs p-1">2</div>
-          </div>
-        </nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="/" class="block">
-          <div class="flex justify-between items-center rounded-lg">
-            <div class="flex items-center space-x-2">
-              <svg width="1em" height="1em" viewBox="0 0 15 15" class="text-gray-400">
-                <path
-                  fill="currentColor"
-                  d="M7.825.12a.5.5 0 0 0-.65 0L0 6.27v7.23A1.5 1.5 0 0 0 1.5 15h4a.5.5 0 0 0 .5-.5v-3a1.5 1.5 0 0 1 3 0v3a.5.5 0 0 0 .5.5h4a1.5 1.5 0 0 0 1.5-1.5V6.27L7.825.12Z"
-                ></path>
-              </svg>
-              <div>Início</div>
-            </div>
           </div>
         </nuxt-link>
       </li>

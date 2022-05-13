@@ -1,10 +1,14 @@
 <template>
   <div class="bg-gray-100 min-h-screen">
     <OrNavbar />
-    <div class="container mx-auto px-5 py-10 grid grid-cols-4 gap-6">
-      <OrProfile />
-      <OrBio class="col-span-2" />
+    <div class="container mx-auto px-5 pb-10 grid grid-cols-4 gap-6">
       <div>
+        <OrProfile />
+      </div>
+      <div class="col-span-2">
+        <OrBio />
+      </div>
+      <div class="space-y-4">
         <OrFriends />
         <OrCommunities />
       </div>
